@@ -6,11 +6,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class HandsOnArrayList {
+    //      Create the ArrayList: Declare an ArrayList of type String to store names.
+    ArrayList<String> studentNames = new ArrayList<>();
+
     public void arrayStudent() {
-//      Create the ArrayList: Declare an ArrayList of type String to store names.
-        ArrayList<String> studentNames = new ArrayList<>();
-
-
         studentNames.add("Tom");
         studentNames.add("Jack");
         studentNames.add("Chris");
