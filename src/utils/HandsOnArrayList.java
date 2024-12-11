@@ -7,6 +7,7 @@ import java.util.Collections;
 
 public class HandsOnArrayList {
     public static void main(String[] args) {
+//      Create the ArrayList: Declare an ArrayList of type String to store names.
         ArrayList<String> studentNames = new ArrayList<>();
 
 
@@ -18,7 +19,8 @@ public class HandsOnArrayList {
 
         System.out.println(studentNames);
 
-        studentNames.remove("Jerry");
+//       Use the remove() method to delete a name. You can remove by either index or name
+        studentNames.remove(4);
         System.out.println("After removing a name, the updated list " + studentNames);
         Collections.sort(studentNames);
         System.out.println("after sort the list alphabetically");
