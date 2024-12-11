@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class HandsOnArrayList {
-    public static void main(String[] args) {
+    public void arrayStudent() {
 //      Create the ArrayList: Declare an ArrayList of type String to store names.
         ArrayList<String> studentNames = new ArrayList<>();
 
