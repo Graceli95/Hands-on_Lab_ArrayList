@@ -8,11 +8,7 @@ import java.util.Collections;
 public class HandsOnArrayList {
     public static void main(String[] args) {
         ArrayList<String> studentNames = new ArrayList<>();
-//        Student student1 = new Student("Tom");
-//        Student student2 = new Student("Chris");
-//        Student student3 = new Student("Jerry");
-//        Student student4 = new Student("Steven");
-//        Student student5 = new Student("Jack");
+
 
         studentNames.add("Tom");
         studentNames.add("Jack");
